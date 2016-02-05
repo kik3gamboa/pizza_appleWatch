@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var opSegue : Bool = true
+    var pizzaSize : String = ""
+    var pizzaMasa : String = ""
+    var pizzaQueso : String = ""
+    var ingrGral : Int = 0
+    var ingArray = ["a": false, "b": false, "c": false, "d": false, "e": false, "f": false, "g": false, "h": false, "i": false, "j": false, "k": false, "l": false]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,4 +29,3 @@ class ViewController: UIViewController {
 
 
 }
-
